@@ -11,10 +11,10 @@
 <table style="width: 100%;">
   <tr>
     <td style="text-align: left; vertical-align: top;">
-      <img width="600" height="600" src="https://github.com/FranaGan5/vaderCalculator/blob/main/Images/Contenido_app.png">
+      <img width="100%" height="100%" src="https://github.com/FranaGan5/vaderCalculator/blob/main/Images/Contenido_app.png">
     </td>
     <td style="text-align: right; vertical-align: top;">
-      <img width="600" height="400" src="https://github.com/FranaGan5/vaderCalculator/blob/main/Images/Funciones_app.png">
+      <img width="100%" height="100%" src="https://github.com/FranaGan5/vaderCalculator/blob/main/Images/Funciones_app.png">
     </td>
   </tr>
 </table>
