@@ -22,11 +22,13 @@
 ## <p align="center">  Las operaciones:
 <p align="justify">
 1. OPERACIÓN CALCULAR: A la hora de calcular nuestras operaciones ha sido necesario que el tipo de dato a introducir sea de tipo “float” para poder manejar datos decimales. Se ha hecho un casting para visualizar los datos en el EditText. 
-  Después de introducir los campos en los EditText y habilitarse el radioButton de “operación” solo quedará pulsar el botón CALCULAR y nos mostrará el resultado de la operación </p>
+  Después de introducir los campos en los EditText y habilitarse el radioButton de “operación” solo quedará pulsar el botón CALCULAR y nos mostrará el resultado de la operación 
 <p align="justify">
-2. OPERACIÓN GUARDAR: Llegados a este punto lo siguiente que queremos hacer es guardar la operación realizada por el usuario. Para ello hemos utilizado la clase “SharedPreferences”, que nos permitirá almacenar la operación hasta que decidamos eliminarla de la memoria del dispositivo. Al pulsar el botón guardar se mostrará un mensaje (“Toast”) indicándonos que los datos han sido guardados </p>
+2. OPERACIÓN GUARDAR: Llegados a este punto lo siguiente que queremos hacer es guardar la operación realizada por el usuario. Para ello hemos utilizado la clase “SharedPreferences”, que nos permitirá almacenar la operación hasta que decidamos eliminarla de la memoria del dispositivo. Al pulsar el botón guardar se mostrará un mensaje (“Toast”) indicándonos que los datos han sido guardados 
+</p>
 <p align="justify">   
-3. OPERACIÓN MOSTRAR: Al efectuar la pulsación en el botón mostrar hay dos posibles mensajes que nos aparecerán en nuestro EditText. Mensaje 1: Se muestra la última operación realizada que previamente ha sido guardada. Mensaje 2: Si no hemos guardado la operación previamente aparecerá el mensaje “NO HAY DATOS GUARDADOS” </p>
+3. OPERACIÓN MOSTRAR: Al efectuar la pulsación en el botón mostrar hay dos posibles mensajes que nos aparecerán en nuestro EditText. Mensaje 1: Se muestra la última operación realizada que previamente ha sido guardada. Mensaje 2: Si no hemos guardado la operación previamente aparecerá el mensaje “NO HAY DATOS GUARDADOS” 
+</p>
 <p align="justify">   
 4. OPERACIÓN BORRAR: Para finalizar pulsaremos el botón borrar y nos eliminará de la memoria la última operación que realizó el usuario. Mostrándose el mensaje (“Toast”) “Registros y operaciones eliminadas”. Volverán a deshabilitarse los RadioButton para que el usuario introduzca nuevamente los datos en ambos EditText.
 </p>
