@@ -8,16 +8,12 @@
 </p>
 
 ## <p align="center">  ¿Qué características posee?
-<table style="width: 100%;">
-  <tr>
-    <td style="text-align: left; vertical-align: top;">
-      <img width="100%" height="100%" src="https://github.com/FranaGan5/vaderCalculator/blob/main/Images/Contenido_app.png">
-    </td>
-    <td style="text-align: right; vertical-align: top;">
-      <img width="100%" height="100%" src="https://github.com/FranaGan5/vaderCalculator/blob/main/Images/Funciones_app.png">
-    </td>
-  </tr>
-</table>
+<p align="center">
+<img width="500" height="500" src="https://github.com/FranaGan5/vaderCalculator/blob/main/Images/Contenido_app.png">
+</p>
+<p align="center">     
+<img width="900" height="300" align="center" src="https://github.com/FranaGan5/vaderCalculator/blob/main/Images/Funciones_app.png">
+</p>   
 
 ## <p align="center">  Las operaciones:
 <p align="justify">
