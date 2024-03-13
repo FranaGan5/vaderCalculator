@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">VaderCalculator</string>
+    <string name="vaderCalculator">vaderCalculator</string>
+    <string name="acceder">Acceder</string>
+    <string name="salir">Salir</string>
+    <string name="numero1">Primer numero</string>
+    <string name="numero2">Segundo numero</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="multiplicacion">*</string>
+    <string name="division">/</string>
+    <string name="boton_0">0</string>
+    <string name="boton_1">1</string>
+    <string name="boton_2">2</string>
+    <string name="boton_3">3</string>
+    <string name="boton_4">4</string>
+    <string name="boton_5">5</string>
+    <string name="boton_6">6</string>
+    <string name="boton_7">7</string>
+    <string name="boton_8">8</string>
+    <string name="boton_9">9</string>
+    <string name="boton_punto">.</string>
+    <string name="simbolomenos">-</string>
+    <string name="calcular">Calcular</string>
+    <string name="borrar">Borrar</string>
+    <string name="guardar">Guardar</string>
+    <string name="mostrar">Mostrar</string>
+
+
+
+</resources>

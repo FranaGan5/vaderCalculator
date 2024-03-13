@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/galaxia_app"
+    tools:ignore="MissingDefaultResource">
+
+
+
+    <EditText
+        android:id="@+id/textPrimerNumero"
+        android:layout_width="301dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/death_star"
+        android:inputType="number|numberDecimal"
+        android:text="@string/numero1"
+        android:textColor="#ECE33F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textSegundoNumero"
+        android:layout_width="301dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/death_star"
+        android:inputType="number|numberDecimal"
+        android:text="@string/numero2"
+        android:textColor="#ECE33F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPrimerNumero" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="303dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:buttonTint="@color/amarillo_letras"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/textSegundoNumero"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textSegundoNumero"
+        app:layout_constraintTop_toBottomOf="@+id/textSegundoNumero">
+
+        <RadioButton
+            android:id="@+id/ButtonSuma"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/amarillo_letras"
+            android:checked="false"
+            android:text="@string/suma"
+            android:textColor="@color/amarillo_letras" />
+
+
+        <RadioButton
+            android:id="@+id/ButtonResta"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:text="@string/resta"
+            android:textColor="@color/amarillo_letras" />
+
+        <RadioButton
+            android:id="@+id/ButtonMultiplicacion"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/amarillo_letras"
+            android:text="@string/multiplicacion"
+            android:textColor="@color/amarillo_letras" />
+
+        <RadioButton
+            android:id="@+id/ButtonDivision"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/amarillo_letras"
+            android:text="@string/division"
+            android:textColor="@color/amarillo_letras" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_0"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#8E0606"
+        android:shadowColor="@color/black"
+        android:text="@string/boton_0"
+        app:layout_constraintStart_toEndOf="@+id/button_9"
+        app:layout_constraintTop_toBottomOf="@+id/button_6" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#8E0606"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="@color/black"
+        android:text="@string/boton_1"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#403D3D"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="#020202"
+        android:text="@string/boton_2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/button_3"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toEndOf="@+id/button_1"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#403D3D"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="@color/black"
+        android:text="@string/boton_3"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/button_4"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#8E0606"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="@color/black"
+        android:text="@string/boton_4"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#8E0606"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="@color/black"
+        android:text="@string/boton_5"
+        app:layout_constraintStart_toStartOf="@+id/button_1"
+        app:layout_constraintTop_toBottomOf="@+id/button_1" />
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#403D3D"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="@color/black"
+        android:text="@string/boton_6"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/button_5"
+        app:layout_constraintTop_toBottomOf="@+id/button_2" />
+
+    <Button
+        android:id="@+id/button_7"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#403D3D"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="@color/black"
+        android:text="@string/boton_7"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/button_8"
+        app:layout_constraintTop_toBottomOf="@+id/button_3" />
+
+    <Button
+        android:id="@+id/button_8"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#8E0606"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="@color/black"
+        android:text="@string/boton_8"
+        app:layout_constraintEnd_toEndOf="@+id/button_4"
+        app:layout_constraintTop_toBottomOf="@+id/button_4" />
+
+    <Button
+        android:id="@+id/button_9"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#403D3D"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="@color/black"
+        android:text="@string/boton_9"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/button_5"
+        app:layout_constraintTop_toBottomOf="@+id/button_5" />
+
+    <Button
+        android:id="@+id/button_punto"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#403D3D"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="@color/black"
+        android:text="@string/boton_punto"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/button_7"
+        app:layout_constraintTop_toBottomOf="@+id/button_7" />
+
+    <Button
+        android:id="@+id/button_simbolomenos"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#8E0606"
+        android:fontFamily="@font/starjedi"
+        android:shadowColor="@color/black"
+        android:text="@string/simbolomenos"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/button_8"
+        app:layout_constraintTop_toBottomOf="@+id/button_8" />
+
+    <Button
+        android:id="@+id/buttonCalcular2"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#B60C0C"
+        android:fontFamily="@font/starjedi"
+        android:text="@string/calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_0" />
+
+    <Button
+        android:id="@+id/buttonMostrar2"
+        android:layout_width="339dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#C61111"
+        android:fontFamily="@font/starjedi"
+        android:text="@string/mostrar"
+        app:layout_constraintEnd_toEndOf="@+id/buttonGuardar2"
+        app:layout_constraintStart_toStartOf="@+id/buttonGuardar2"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGuardar2" />
+
+    <Button
+        android:id="@+id/buttonBorrar2"
+        android:layout_width="341dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#505155"
+        android:fontFamily="@font/starjedi"
+        android:text="@string/borrar"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCalcular2"
+        app:layout_constraintStart_toStartOf="@+id/buttonCalcular2"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCalcular2" />
+
+    <Button
+        android:id="@+id/buttonGuardar2"
+        android:layout_width="342dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/starjedi"
+        android:text="@string/guardar"
+        app:layout_constraintEnd_toEndOf="@+id/buttonBorrar2"
+        app:layout_constraintStart_toStartOf="@+id/buttonBorrar2"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBorrar2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
